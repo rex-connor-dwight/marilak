@@ -10,16 +10,36 @@ html{
     --mildwhite: #C0D2D5;
     --background: #D8E6E8;
     --greenOne: #338C52;
+    --grayNid: #A8BCBE;
+    --exp: #1F322E;
 }
+
+.headingDefault{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+
+.headingDefault span{
+    color: var(--greenOne);
+}
+
+.paragraphDefault{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 55px;
+    padding: 35px 115px;
     position: fixed;
-    width: 92vw;
-    background: 0;
+    width: 82vw;
+    background: var(--background);
 }
 
 header > button{
@@ -144,4 +164,115 @@ header > button > img{
     font-size: 16px;
     cursor: pointer;
 
+}
+
+#homeAbout{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 115px;
+}
+
+.hbTop{
+    display: flex;
+    align-items: center;
+}
+
+.hbTop > img{
+    max-width: 400px;
+    height: auto;
+}
+
+.hbToptext > p{
+    padding-right: 145px;
+}
+
+.whatWeDo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.whatWeDo > h3{
+    padding: 9px 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}
+
+.adt{
+    background: var(--greenOne);
+    color: var(--background);
+}
+
+.null{
+    background: var(--grayNid);
+}
+
+
+#expertise{
+    padding: 80px 115px;
+    color: var(--background);
+    background: url(devTools/expertise.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#expertise > h3, h5, span, p, div{
+    background: 0;
+}
+
+#expertise >  p{
+    width: 37%;
+}
+
+.expCon{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    overflow: scroll;
+}
+
+.expCon::-webkit-scrollbar{
+    display: none;
+}
+
+.expContent{
+    background: var(--exp);
+    color: var(--grayNid);
+    padding: 30px;
+    margin-right: 30px;
+    height: 140px;
+    min-width: 220px;
+    border-radius: .2rem;
+}
+
+.expContent > h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.expContent > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.expContent > button{
+    margin-top: 20px;
+    background: var(--greenOne);
+    color: var(--mildwhite);
+    padding: .7vw 1.6vw;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: .2rem;
 }

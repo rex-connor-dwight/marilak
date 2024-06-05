@@ -7,6 +7,8 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 :root {
     --mildwhite: #C0D2D5;
     --background: #D8E6E8;
@@ -14,15 +16,31 @@ html{
 }
 
 @media only screen and (max-width: 600px){
+
+    .headingDefault{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    
+    .headingDefault span{
+        color: var(--greenOne);
+    }
+    
+    .paragraphDefault{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
     header{
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 25px 25px;
-        /* background: var(--mildwhite); */
-        position: fixed;
-        width: 86vw;
-        background: 0;
+        background: var(--background);
+        width: 88vw;
     }
     
     header > button{
@@ -122,5 +140,54 @@ html{
         font-weight: 600;
         font-size: 16px;
         cursor: pointer;
+    }
+
+    #homeAbout{
+        display: flex;
+        flex-direction: column;
+        padding: 80px 25px;
+    }
+    
+    .hbTop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hbTop > img{
+        max-width: 100%;
+    }
+    
+    .hbToptext > p{
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    
+    .whatWeDo{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    
+    .whatWeDo > h3{
+        width: 90px;
+        margin-top: 18px;
+        font-size: 12px;
+    }
+
+    #expertise{
+        padding: 45px 25px;
+    }
+
+
+    #expertise >  p{
+        width: 100%;
+    }
+
+    .expCon{
+        margin-top: 35px;
+    }
+
+    .expContent > button{
+        padding: 2.7vw 5.6vw;
     }
 }
