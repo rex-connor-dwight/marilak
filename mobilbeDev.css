@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    background: var(--background);
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --mildwhite: #C0D2D5;
+    --background: #D8E6E8;
+    --greenOne: #338C52;
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 25px;
+        /* background: var(--mildwhite); */
+        position: fixed;
+        width: 86vw;
+        background: 0;
+    }
+    
+    header > button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 0;
+        background: 0;
+        padding: 15px 0px;
+        border-radius: 90rem;
+        cursor: pointer;
+    }
+    
+    header > button > h5{
+        display: none;
+    
+    
+    
+    }
+    
+    header > button > img{
+        margin-right: 4px;
+        max-width: 5vw;
+        background: 0;
+    }
+    
+    
+    
+    
+    .rootImage{
+        max-width: 9vw;
+        height: auto;
+        background: 0;
+    }
+
+
+    #navDropdown{
+        display: none;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navDropdown > a{
+        text-decoration: none;
+    }
+    
+    .navLinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--mildwhite);
+        padding: 17px 45px;
+        margin: 17px 0;
+        border-radius: 90rem;
+        min-width: 220px;
+        cursor: pointer;
+    }
+    
+    .navLinks > img{
+        max-width: 5vw;
+        background: 0;
+        margin-right: 15px;
+    }
+    
+    .navLinks > h4{
+        background: 0;
+        color: var(--greenOne);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+
+    #hero{
+        padding: 0 25px;
+    }
+    
+    #hero > h1{
+        font-size: 45px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #hero > p{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #hero > button{
+        margin-top: 45px;
+        padding: 3vw 6vw;
+        border: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

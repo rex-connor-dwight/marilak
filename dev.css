@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    background: var(--background);
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --mildwhite: #C0D2D5;
+    --background: #D8E6E8;
+    --greenOne: #338C52;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 55px;
+    position: fixed;
+    width: 92vw;
+    background: 0;
+}
+
+header > button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    background: var(--mildwhite);
+    padding: 15px 45px;
+    border-radius: 90rem;
+    cursor: pointer;
+}
+
+header > button > h5{
+    color: var(--greenOne);
+    background: 0;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+
+}
+
+header > button > img{
+    margin-right: 20px;
+    max-width: 20px;
+    background: 0;
+}
+
+
+
+
+.rootImage{
+    max-width: 80px;
+    height: auto;
+    background: 0;
+}
+
+#navDropdown{
+    display: none;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navDropdown > a{
+    text-decoration: none;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--mildwhite);
+    padding: 17px 45px;
+    margin: 17px 0;
+    border-radius: 90rem;
+    min-width: 300px;
+}
+
+.navLinks > img{
+    max-width: 2vw;
+    background: 0;
+    margin-right: 15px;
+}
+
+.navLinks > h4{
+    background: 0;
+    color: var(--greenOne);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#hero{
+    color: var(--background);
+    background: url(devTools/home-desktop-banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--mildwhite);
+}
+
+#hero > h1{
+    background: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    text-align: center;
+    width: 45%;
+}
+
+#hero > h1 span{
+    background: 0;
+    color: var(--greenOne);
+}
+
+#hero > p{
+    background: 0;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    width: 45%;
+}
+
+#hero > button{
+    margin-top: 45px;
+    background: var(--greenOne);
+    color: var(--mildwhite);
+    padding: 1vw 3vw;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+
+}
