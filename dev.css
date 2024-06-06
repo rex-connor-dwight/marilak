@@ -11,6 +11,7 @@ html{
     --background: #D8E6E8;
     --greenOne: #338C52;
     --grayNid: #A8BCBE;
+    --opps: #8A9D9F;
     --exp: #1F322E;
     --darkgray: #1E1E1E;
     --lower: #1F63E7;
@@ -39,9 +40,10 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 35px 115px;
-    position: fixed;
+    position: absolute;
+    height: 40px;
     width: 82vw;
-    background: var(--background);
+    background: 0;
 }
 
 header > button{
@@ -165,7 +167,11 @@ header > button > img{
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+}
 
+#hero > button a{
+    text-decoration: none;
+    color: var(--background);
 }
 
 #homeAbout{
@@ -441,4 +447,208 @@ footer > h3, ul, a, img, li, h3{
     background: var(--lower);
     padding: 10px 25px;
     border-radius: 900rem;
+}
+
+
+
+
+
+
+
+
+
+#AboutMain, #ServicesMain, #ArticleMain{
+    padding: 120px 0px;
+}
+
+.subheaderBg > h2, h6{
+    background: 0;
+    color: var(--darkgray);
+}
+
+.subheaderBg h2{
+    color: var(--background);
+}
+
+.subheader h2{
+    width: 70%;
+}
+
+.subheaderBg, .subheader div > h6{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    color: var(--grayNid);
+    margin-bottom: 9px;
+}
+
+.subheaderBg{
+    background: url(./devTools/AboutCard.png);
+    background-position: center;
+    background-size: cover;
+    padding: 30px 115px;
+    color: var(--background);
+}
+
+.headtxt{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    width: 30%;
+    color: var(--exp);
+}
+
+.subheader{
+    background-position: center;
+    background-size: cover;
+    padding: 30px 115px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.abc{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 80px 115px;
+}
+
+.abc > img{
+    max-width: 400px;
+    height: auto;
+    border-radius: .2rem;
+}
+
+.abb{
+    padding-right: 105px;
+}
+
+.abb > h3{
+    color: var(--greenOne);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+.abb > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.Abd{
+    margin: 80px 115px;
+    background: var(--grayNid);
+    padding: 45px 65px;
+    border-radius: .2rem;
+}
+
+.Abd > h3{
+    color: var(--greenOne);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+.Abd > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+
+.servicesCon{
+    padding: 80px 115px;
+    display: flex;
+    align-items: top;
+    overflow: scroll;
+}
+
+.servicesCon::-webkit-scrollbar{
+    display: none;
+}
+
+.servicesContents{
+    min-width: 400px;
+    margin-right: 35px;
+    background: var(--mildwhite);
+    padding: 25px;
+    border-radius: .2rem;
+}
+
+.servicesContents h4{
+    color: var(--greenOne);
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.servicesContents > ul li{
+    margin: 9px 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--darkgray);
+}
+
+
+
+#ArticleMain > h6{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: var(--greenOne);
+    padding: 0 115px;
+}
+
+
+.post{
+    margin: 35px 115px;
+    background: var(--mildwhite);
+    padding: 100px 35px;
+    width: 60%;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post > h2{
+    background: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--opps);
+    margin-bottom: 4px;
+}
+
+.post > p{
+    background: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    color: var(--darkgray);
+    margin-bottom: 1px;
+}
+
+.post > a{
+    margin-top: 20px;
+    background: var(--greenOne);
+    color: var(--mildwhite);
+    padding: .9vw 2.6vw;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: .2rem;
+    text-decoration: none;
 }

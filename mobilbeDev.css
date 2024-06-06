@@ -39,8 +39,8 @@ html{
         align-items: center;
         justify-content: space-between;
         padding: 25px 25px;
-        background: var(--background);
-        width: 88vw;
+        /* background: var(--background); */
+        /* width: 88vw; */
     }
     
     header > button{
@@ -210,6 +210,11 @@ html{
     #deliver{
         padding: 50px 25px;
     }
+
+    .delivercontent{
+        min-width: 35vw;
+        margin-right: 0px;
+    }
     
     
     .deliverCon{
@@ -220,6 +225,7 @@ html{
     
     .delivercontent{
         margin-bottom: 35px;
+        text-align: center;
     }
 
 
@@ -295,4 +301,150 @@ html{
         padding: 7px 20px;
         border-radius: 900rem;
     }
+
+
+
+
+
+    #AboutMain{
+        padding: 90px 0px;
+    }
+    
+    .subheaderBg > h2, h6{
+        background: 0;
+    }
+    
+    .subheaderBg > h6{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        color: var(--grayNid);
+        margin-bottom: 9px;
+    }
+    
+    .subheaderBg{
+        padding: 30px 25px;
+    }
+
+    .subheader{
+        padding: 0px 25px;
+        flex-direction: column;
+    }
+
+    .headtxt{
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    
+    .abc{
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        justify-content: space-between;
+        padding: 40px 25px;
+    }
+    
+    .abc > img{
+        max-width: 100%;
+        height: auto;
+        border-radius: .2rem;
+        margin-top: 25px;
+    }
+    
+    .abb{
+        padding-right: 0px;
+    }
+    
+    .abb > h3{
+        color: var(--greenOne);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .abb > p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .Abd{
+        margin: 0px 25px;
+        background: var(--grayNid);
+        padding: 25px;
+        border-radius: .2rem;
+    }
+    
+    .Abd > h3{
+        color: var(--greenOne);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .Abd > p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    .servicesCon{
+        padding: 0px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+    }
+    
+    .servicesContents{
+        min-width: 300px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+
+    #ArticleMain > h6{
+        font-size: 12px;
+        padding: 0 25px;
+    }
+
+
+    .post{
+        margin: 35px 25px;
+        background: var(--mildwhite);
+        padding: 80px 35px;
+        width: 70vw;
+        border-radius: .2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post > h2{
+        font-size: 20px;
+    }
+
+    .post > p{
+        font-size: 10px;
+    }
+
+    .post > a{
+        margin-top: 14px;
+        background: var(--greenOne);
+        color: var(--mildwhite);
+        padding: 2.4vw 4.6vw;
+        border: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: .2rem;
+        text-decoration: none;
+    }
 }
+    
