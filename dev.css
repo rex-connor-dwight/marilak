@@ -89,6 +89,7 @@ header > button > img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 #navDropdown > a{
@@ -457,7 +458,7 @@ footer > h3, ul, a, img, li, h3{
 
 
 
-#AboutMain, #ServicesMain, #ArticleMain{
+#AboutMain, #ServicesMain, #ArticleMain, #contactMain{
     padding: 120px 0px;
 }
 
@@ -644,6 +645,48 @@ footer > h3, ul, a, img, li, h3{
     background: var(--greenOne);
     color: var(--mildwhite);
     padding: .9vw 2.6vw;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: .2rem;
+    text-decoration: none;
+}
+
+
+
+.Genesis{
+    padding: 40px 115px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.Genesis > label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--darkgray);
+}
+
+.Genesis > .otravez{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--opps);
+    background: var(--mildwhite);
+    padding: 5px 25px;
+    height: 75px;
+    border: var(--greenOne) .06rem solid;
+    border-radius: .2rem;
+}
+
+.Submit{
+    margin-top: 60px;
+    background: var(--greenOne);
+    color: var(--mildwhite);
+    padding: 3vw 2.6vw;
     border: 0;
     font-style: normal;
     font-weight: 600;

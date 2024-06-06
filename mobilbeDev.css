@@ -40,7 +40,7 @@ html{
         justify-content: space-between;
         padding: 25px 25px;
         /* background: var(--background); */
-        /* width: 88vw; */
+        width: 88vw;
     }
     
     header > button{
@@ -252,6 +252,8 @@ html{
         font-weight: 300;
         font-size: 9px;
         margin-bottom: 18px;
+        text-decoration: none;
+        color: var(--background);
     }
 
     .footerRight{
@@ -426,7 +428,7 @@ html{
     }
 
     .post > h2{
-        font-size: 20px;
+        font-size: 4.4vw;
     }
 
     .post > p{
@@ -442,6 +444,35 @@ html{
         font-style: normal;
         font-weight: 600;
         font-size: 12px;
+        cursor: pointer;
+        border-radius: .2rem;
+        text-decoration: none;
+    }
+
+    .Genesis{
+        padding: 20px 25px 0 25px;
+    }
+    
+    .Genesis > label{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--darkgray);
+    }
+    
+    .Genesis > .otravez{
+        height: 45px;
+    }
+    
+    .Submit{
+        margin-top: 15px;
+        background: var(--greenOne);
+        color: var(--mildwhite);
+        padding: 5vw 0vw;
+        border: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
         cursor: pointer;
         border-radius: .2rem;
         text-decoration: none;
